@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 //import './Widgets/page1.dart';
+import 'Widgets/gridview.dart';
 
 class App extends StatelessWidget {
   @override
@@ -91,6 +92,7 @@ class App extends StatelessWidget {
                           spreadRadius: 1,
                           blurRadius: 10)
                     ]),
+                child: GridV(),
               ),
             ),
           ],
